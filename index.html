@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Webtalk</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="sass/main.css">
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar menu" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <h1><a class="navbar-brand" href="index.html">Webtalk</a></h1>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="menu__search">
+                    <input type="search" name="search-menu" placeholder="Search people, job titles, companies and more">
+                </form>
+                <ul class="nav navbar-nav">
+                    <li class="messages"><a href="#">Messages</a></li>
+                    <li class="notifications"><a href="#">Notifications</a></li>
+                    <li class="friends"><a href="#">Friends</a></li>
+                    <li class="settings"><a href="#">Settings</a></li>
+                    <li class="exit"><a href="#">Exit</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-wrap">
+
+        <!--Posts------------------------------------------------------------------------------------------------>
+
+        <section class="col-md-8 post__container">
+            <form class="post__form">
+                <div class="post__comment">
+                    <textarea name="post__text" placeholder="Share what's new..."></textarea>
+                    <input class="post__photos" type="file" accept="image/x-png, image/jpeg">
+                    <input class="post__docs" type="file" accept="application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                </div>
+                <div class="post__submit">
+                    <div class="post__share">
+                        <input type="checkbox">
+                        <div class="post__public-1"></div>
+                        <select class="post__share-select">
+                            <option>Group</option>
+                        </select>
+                    </div>
+                    <div class="post__type">
+                        <div class="post__public-2"></div>
+                        <select class="post__share-select">
+                            <option>Professional Network</option>
+                            <option>Current Colleges</option>
+                            <option>Friends and Family</option>
+                            <option>Personal Network</option>
+                        </select>
+                        <button type="submit" class="btn-submit">Talk</button>
+                    </div>
+                </div>
+            </form>
+
+            <div class="post__publication">
+                <div class="post__origin">
+                    <img src="assets/images/content/vodafone.jpg">
+                    <div class="post__author">
+                        <h4><a href="#">Mars Appleseed</a></h4>
+                        <p>shared <a href="#" class="post__shared">Fantasy Interactive</a>'s <a href="#" class="post__shared">photo</a> - Aug 12, 2013</p>
+                    </div>
+                    <div class="post__icons">
+                        <div class="post__public-1"></div>
+                        <div class="post__public-2"></div>
+                    </div>
+                </div>
+                <img src="assets/images/content/car.jpg">
+                <div class="post__likes">
+                    <div class="post__likes-icons"><img src="assets/images/design/comment.jpg">32</div>
+                    <div class="post__likes-icons"><img src="assets/images/design/like.jpg">164</div>
+                    <div class="post__likes-icons"><img src="assets/images/design/share.jpg">10</div>
+                </div>
+                <div class="post__comment">
+                    <img src="assets/images/content/vodafone.jpg">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar metus ut dolor faucibus molestie et sed sapien. Aliquam placerat ornare arcu ac pulvinar.</p>
+                </div>
+                <div post__comment-active>
+                    <img src="assets/images/content/vodafone.jpg">
+                    <form>
+                        <textarea name="post__comment-active"></textarea>
+                        <img src="assets/images/design/image.jpg">
+                        <img src="assets/images/design/text.jpg">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="col-md-4 recommended__container">
+
+        </section>
+
+        <!--End Posts------------------------------------------------------------------------------------------------>
+
+    </div>
+
+    <footer>
+        <p>© Copyright 2015 Webtalk</p>
+    </footer>
+
+</body>
+</html>

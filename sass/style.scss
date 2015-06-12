@@ -1,0 +1,171 @@
+body {
+	font-size: 62.5%;
+	font-family: sans-serif;
+	overflow-x: hidden;
+	background: #eeeff1;
+}
+
+
+//Menu ---------------------------------------------------------------------------------------------------------
+
+.menu {
+	width: 100%;
+	height: 112px;
+	background: $grey-nav;
+	border-radius: 0;
+
+	h1 {
+		width: 360px;
+		height: 111px;
+		background: url("../assets/images/design/logo.jpg") no-repeat;
+		text-indent: -9999%;
+		display: inline-block;
+		margin: 0;
+	}
+
+	.menu__search {
+		float: left;
+		background: url("../assets/images/design/search.jpg") no-repeat;
+		width: calc(100% - 980px);
+		height: 111px;
+
+		input {
+			margin-left: 97px;
+			width: calc(100% - 97px);
+			height: 111px;
+			background: $grey-form;
+			background-image: url("../assets/images/design/search.jpg") no-repeat;
+			border: none;
+			font-size: 3rem;
+			color: $grey-search;
+			padding: 15px;
+			outline: none;
+
+			&::-webkit-input-placeholder {
+				color: $grey-search;
+			}
+
+			&:-moz-placeholder {
+				color: $grey-search;
+			}
+
+			&::-moz-placeholder {
+				color: $grey-search;
+			}
+
+			&:-ms-input-placeholder {
+				color: $grey-search;
+			}
+		}
+	}
+
+	.navbar-collapse {
+		padding: 0;
+	}
+
+	.navbar-nav {
+		float: right;
+	}
+
+	li {
+		width: 124px;
+		height: 111px;
+		border-left: 3px solid $grey-form;
+		text-indent: -9999%;
+
+		&:first-child {
+			border: none;
+		}
+
+		a {
+			width: 124px;
+			height: 111px;
+			background: none;
+
+			&:hover {
+				background: none;
+			}
+		}
+	}
+
+	.messages {
+		background: url("../assets/images/design/email.jpg") no-repeat;
+	}
+
+	.notifications {
+		background: url("../assets/images/design/alert.jpg") no-repeat;
+	}
+
+	.friends {
+		background: url("../assets/images/design/friend.jpg") no-repeat;
+	}
+
+	.settings {
+		background: url("../assets/images/design/setting.jpg") no-repeat;
+	}
+
+	.exit {
+		background: url("../assets/images/design/close.jpg") no-repeat;
+	}
+}
+
+
+//End menu ---------------------------------------------------------------------------------------------------
+
+.container-wrap {
+	display: table;
+	width: 100%;
+	padding-left: 90px;
+
+	.post__container {
+
+		.post__form {
+			width: 100%;
+			background: #fff;
+			padding: 35px;
+
+			.post__comment {
+				border: 3px solid $grey-button;
+				width: 100%;
+				height: 175px;
+
+				textarea {
+					resize: none;
+					width: calc(100% - 315px);
+					height: 169px;
+					color: $black-credit;
+					font-size: 3rem;
+					padding: 35px;
+					border: none;
+					outline: none;
+
+					&::-webkit-input-placeholder {
+						color: $black-credit;
+					}
+
+					&:-moz-placeholder {
+						color: $black-credit;
+					}
+
+					&::-moz-placeholder {
+						color: $black-credit;
+					}
+
+					&:-ms-input-placeholder {
+						color: $black-credit;
+					}
+				}
+			}
+		}
+	}
+}
+
+//Footer ------------------------------------------------------------------------------------------------------
+
+footer {
+	width: 100%;
+	height: 40px;
+	background: $grey-form;
+	color: $grey-search;
+	text-align: center;
+}
